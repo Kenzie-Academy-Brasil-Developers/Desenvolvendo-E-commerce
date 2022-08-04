@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+.menu {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+.menu-flex {
+  display: flex;
+  align-items: center;
+}
+
+.menu-column {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.logo{
+  font-weight: 700;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+
+.menu-column.menu-second-column {
+  justify-content: flex-end;
+}
+
+.menu-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 10px; /* Vamos utilizar essa propriedade do flex para colocar um espaçamento entre os elementos*/
+}
+
+.menu-nav ul li a {
+  text-decoration: none;
+  color: #585e65;
+}
+
+.menu-link-button {
+  text-decoration: none;
+  height: 48px;
+  background-color: #4c6ef5;
+  color: #fff;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.products-wrapper ul li img{
+  height: 180px;
+  max-width: 100%;
+  
+}
+
+.products-wrapper ul li:hover{
+  box-shadow: 0 0 1px 0 #3498db inset, 0 0 10px 4px #ecf6ff;
+
+}
+
+.products-wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+
+}
+
+.products-wrapper ul li{
+ flex-direction: column;
+ display: flex;
+ justify-content: center;
+ width: 220px;
+ padding: 19px;
+ background-color: #ffffff;
+ box-shadow: 0px 4px 30px -10px rgb(0 0 0 / 20%);
+ border-radius: px;
+ margin-bottom: 10px;
+}
+
+button{
+  background-color: #4c6ef5;
+  border-radius: 4px;
+  width: 220px;
+  height: 30px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover{
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  
+}   
+
